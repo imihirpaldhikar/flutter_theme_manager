@@ -1,0 +1,1 @@
+## The Demo Project for [Flutter Theme Manager](https://github.com/imihirpaldhikar/flutter_theme_manager)
