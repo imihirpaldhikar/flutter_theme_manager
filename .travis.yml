@@ -21,4 +21,4 @@ script:
   - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/bin/flutter test
 cache:
   directories:
-    - $HOME/.pub-cache
+    - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/.pub-cache
