@@ -13,12 +13,11 @@ addons:
       - libstdc++6
       - fonts-droid-fallback
 before_script:
-  - mkdir flutter && cd flutter && git clone https://github.com/flutter/flutter.git -b master
+  - git clone https://github.com/flutter/flutter.git -b master
 script:
-  - cd ../
-  - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/bin/flutter pub get
-  - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/bin/flutter analyze
-  - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/bin/flutter test
+  - ./flutter/bin/flutter pub get
+  - ./flutter/bin/flutter analyze
+  - ./flutter/bin/flutter test
 cache:
   directories:
-    - $HOME/build/imihirpaldhikar/flutter_theme_manager/flutter/flutter/.pub-cache
+    - $HOME/.pub-cache
